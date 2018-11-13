@@ -12,14 +12,14 @@ body {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  top: 500px;
+  top: 520px;
   left: 0;
   right: 0px;
   padding: 16px 0;
   border-bottom: solid 3px #584C34;
   width: 721px;
   animation-duration: 1s;
-  animation-delay: .3s;
+  animation-delay: .4s;
 }
 
 .background-img {
@@ -27,8 +27,8 @@ body {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  top: 70px;
-  left: 115px;
+  top: 90px;
+  left: 20px;
   right: 0px;
   height: 400px;
   width: auto;
@@ -41,13 +41,13 @@ body {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  top: 595px;
+  top: 615px;
   left: 0;
   right: 0px;
   padding: 20px 0;
   width: 721px;
   animation-duration: 3s;
-  animation-delay: .8s;
+  animation-delay: .9s;
 }
 
 .splash {
