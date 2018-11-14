@@ -8,10 +8,9 @@ body {
 
 .splash-header {
   letter-spacing: 8px;
-  font-weight: bold;
-  position: absolute;
   margin-left: auto;
   margin-right: auto;
+  position: absolute;
   top: 520px;
   left: 0;
   right: 0px;
@@ -19,7 +18,7 @@ body {
   border-bottom: solid 2px #584C34;
   width: 721px;
   animation-duration: 1s;
-  animation-delay: .4s;
+  animation-delay: .8s;
 }
 
 .background-img {
@@ -32,10 +31,125 @@ body {
   right: 0px;
   height: 400px;
   width: auto;
+  animation-duration: 6s;
+  animation-delay: .35s;
 }
 
-.splash-subheader {
-  letter-spacing: 8px;
+.splash-btn {
+  letter-spacing: 4px;
+  font-size: 14px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 625px;
+  left: 0;
+  right: 0;
+  padding: 4px 0 4px 4px;
+  width: 70px;
+  border: solid 2px #584C34;
+  background-color: rgb(22, 21, 21);
+  animation-duration: 3s;
+  animation-delay: 1.3s;
+  text-align: center;
+  color: rgb(202, 199, 199);
+  text-transform: uppercase;
+}
+
+.splash-btn:hover {
+  background-color: #584C34;
+  color: rgb(22, 21, 21);
+  border-color: #584C34;
+}
+
+.splash {
+  text-align: center;
+  font-weight: bold;
+}
+
+#drake {
+  color: #584C34;
+}
+
+.hide {
+  display: none;
+}
+
+.header {
+  background-color: #584C34;
+  width: 100%;
+  height: 90px;
+}
+
+.header h1 {
+  padding-top: 23px;
+  text-align: center;
+  color: rgb(22, 21, 21);
+  font-weight: normal;
+}
+
+footer {
+  background-color: #584C34;
+  width: 100%;
+  height: 90px;
+}
+
+footer img {
+  height: 90%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 5px;
+  left: 5px;
+  right: 0;
+}
+
+.scoreboard {
+  border: solid 2px #584C34;
+  border-radius: 7px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 130px;
+  left: 0;
+  right: 0;
+  height: 130px;
+  width: 250px;
+  opacity: 0.7;
+}
+
+.album-art {
+  height: 250px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 300px;
+  left: 200px;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+
+.game-page {
+  transition: opacity 2s ease-out;
+  opacity: 0;
+  height: 0; 
+  overflow: hidden;
+}
+.active {
+  opacity: 1;
+  height: auto;
+}
+
+
+
+
+
+/* make album art images rounded edges (border radius) whenever a new album cums up*/ 
+
+
+
+
+/*   letter-spacing: 8px;
   font-size: 17px;
   font-weight: bold;
   position: absolute;
@@ -47,17 +161,4 @@ body {
   padding: 20px 0;
   width: 721px;
   animation-duration: 3s;
-  animation-delay: .9s;
-}
-
-.splash {
-  text-align: center;
-}
-
-#drake {
-  color: #584C34;
-}
-
-
-
-/* make album art images rounded edges (border radius) whenever a new album cums up*/ 
+  animation-delay: 1.3s; */
