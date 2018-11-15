@@ -70,10 +70,6 @@ body {
   color: #584C34;
 }
 
-.hide {
-  display: none;
-}
-
 .header {
   background-color: #584C34;
   width: 100%;
@@ -84,7 +80,8 @@ body {
   padding-top: 23px;
   text-align: center;
   color: rgb(22, 21, 21);
-  font-weight: normal;
+  font-weight: bold;
+  filter: drop-shadow(3px 2px 4px rgb(202, 199, 199)) brightness(100%);
 }
 
 footer {
@@ -99,7 +96,7 @@ footer img {
   margin-left: auto;
   margin-right: auto;
   bottom: 5px;
-  left: 5px;
+  left: 2px;
   right: 0;
 }
 
@@ -117,15 +114,45 @@ footer img {
   opacity: 0.7;
 }
 
-.album-art {
-  height: 250px;
+.hide {
+  display: none;
+}
+
+.directions {
+  /* background-color: red; */
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  top: 300px;
-  left: 200px;
+  top: 350px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 800px;
+}
+
+.directions h2 {
+  width: 200px;
+  margin: auto auto 15px auto;
+  border-bottom: solid 2px #584C34
+}
+
+#pressKeyStart {
+  color: #584C34;
+  font-weight: bold;
+}
+
+
+.album-art {
+  height: 225px;
+  /* position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 38%;
+  left: 25%; */
   border-radius: 10px;
   opacity: 0.7;
+  margin-left: 140px;
+  margin-top: 220px;
 }
 
 
@@ -138,6 +165,10 @@ footer img {
 .active {
   opacity: 1;
   height: auto;
+}
+
+audio {
+  display: none;
 }
 
 
