@@ -1,3 +1,16 @@
+// drakeGame = {
+
+// }
+
+
+
+
+
+
+
+
+
+
 
   
   // event listener for start button in order to render game page
@@ -45,9 +58,9 @@ function gameStart() {
 
   // testing code for autoplay audio after click
 
-  var x = document.getElementById("myAudio");
-x.autoplay = true;
-x.load();
+//   var x = document.getElementById("myAudio");
+// x.autoplay = true;
+// x.load();
 // x.controls = false;
 
 ///////////////////

@@ -34,13 +34,13 @@
       <div id="losses">0</div>
     </div>
 
-    <div class="container relative">
+    <div class="container">
       <div class="directions">
         <h2>Directions</h2>
-        <p>1. Guess what song by Drake is playing in the background.</p>
-        <p>2.  If you guess 10 incorrect letters of the song, then you lose and another song will play for you to guess.</p>
-        <p>3. Turn up your volume.</p>
-        <p><span id="pressKeyStart">Press any key to start and get Drizzy!</span></p>
+        <p><span class="boldGold">1.</span> Guess what song by Drake is playing in the background.</p>
+        <p><span class="boldGold">2.</span> If you guess 10 incorrect letters of the song, then you lose and another song will play for you to guess.</p>
+        <p><span class="boldGold">3.</span> Turn up your volume.</p>
+        <p class="boldGold">Press any key to start and get Drizzy!</p>
       </div>
     </div>
 
@@ -50,8 +50,10 @@
           <img src="assets/images/Nothing_was_same.jpg" class="album-art" alt="https://www28.zippyshare.com/d/9kUY77uI/48979/03%20Passionfruit.mp3">
         </div>
         <div class="col-sm-6 info-right">
-            <p>Remaining Guesses: 0</p>
-            <p>Letters guessed</p>
+            <h3 class="boldGold">Remaining Guesses</h3>
+            <p><span id="remainingGuess">0</span></p>
+            <h3 class="boldGold guessedLetters">Letters guessed</h3>
+              <p><span id="lettersGuessed">g, g, g, t, t, q, g, j, e, q</span></p>
         </div>
       </div>
     </div>
@@ -64,10 +66,10 @@
 
 
 
-  <audio id="myAudio" autoplay>
+  <!-- <audio id="myAudio" class="hide" autoplay>
     <source src="assets/03_Passionfruit.mp3">
     Your browser does not support the audio element.
-  </audio>
+  </audio> -->
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
