@@ -184,7 +184,7 @@ footer img {
 }
 
 .guessedLetters {
-  margin-top: 35px;
+  margin-top: 45px;
 }
 
 #remainingGuess {
@@ -195,6 +195,30 @@ footer img {
 #lettersGuessed {
   color: rgb(202, 199, 199);
 } 
+
+.wordToGuessDisplay {
+  width: 820px;
+  height: 100px;
+  margin-top: 30px;
+  padding: 15px 35px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(202, 199, 199);
+}
+
+.letterBox {
+  border: solid 1.5px #584C34;;
+  width: 33px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 7px;
+  padding-top: 3px;
+}
+
+.hiddenDIV {
+  visibility: hidden;
+}
 
 
 
