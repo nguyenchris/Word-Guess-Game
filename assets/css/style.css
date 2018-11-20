@@ -22,7 +22,7 @@ body {
 }
 
 .background-img {
-  /* opacity: 0.3; */
+  opacity: 0.3;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -102,7 +102,7 @@ footer img {
 
 .scoreboard {
   border: solid 3px #584C34;
-  border-radius: 5px;
+  border-radius: 10px;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -112,6 +112,28 @@ footer img {
   height: 130px;
   width: 250px;
   opacity: 0.7;
+  font-size: 4em;
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  padding-top: 12px;
+}
+
+.badge {
+  background-color: #584C34;
+  position: inherit;
+  font-size: 0.2em;
+  padding: 7px;
+}
+
+#wins-label {
+  left: -29px;
+  top: 50px;
+}
+
+#losses-label {
+  right: -40px;
+  top: 47px;
 }
 
 .hide {
@@ -122,20 +144,30 @@ footer img {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  top: 350px;
+  top: 320px;
   left: 0;
   right: 0;
-  text-align: center;
+  text-align: left;
   width: 800px;
   letter-spacing: 2px;
 }
 
 .directions h2 {
   letter-spacing: 4px;
-  padding-bottom: 5px;
+  padding-bottom: 7px;
   width: 240px;
   margin: auto auto 15px auto;
   border-bottom: solid 2px #584C34
+}
+
+.directions p {
+  padding-left: 50px;
+  padding-top: 4.2px;
+}
+
+.directions p:last-child {
+  text-align: center;
+  padding-right: 15px;
 }
 
 .boldGold {
@@ -147,14 +179,9 @@ footer img {
 .album-art {
   height: 225px;
   width: 225px;
-  /* position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  top: 38%;
-  left: 25%; */
   border-radius: 10px;
   opacity: 0.7;
-  margin-left: 140px;
+  margin-left: 180px;
   margin-top: 220px;
   padding: 0;
 }
@@ -176,7 +203,7 @@ footer img {
   font-weight: bold;
   width: 10px;
   margin-top: 240px;
-  padding-right: 100px;
+  padding-right: 150px;
   color: #584C34;
   font-weight: bold;
   letter-spacing: 3px;
@@ -237,27 +264,14 @@ footer img {
   display: none;
 }
 
-
-
-
-
-
-
-/* make album art images rounded edges (border radius) whenever a new album cums up*/ 
-
-
-
-
-/*   letter-spacing: 8px;
-  font-size: 17px;
-  font-weight: bold;
+.gameOver {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  top: 615px;
+  top: 400px;
   left: 0;
-  right: 0px;
-  padding: 20px 0;
-  width: 721px;
-  animation-duration: 3s;
-  animation-delay: 1.3s; */
+  right: 0;
+  text-align: center;
+  font-size: 3em;
+  display: none;
+}
