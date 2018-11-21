@@ -226,8 +226,8 @@ drakeGame = {
     }, 1000);
     setTimeout(function() {
       x.style.display = "none";
-    }, 2500);
-    setTimeout(this.restartGame(), 2600);
+      drakeGame.restartGame();
+    }, 2000);
   },
 
   guessedIncorrect: function() {
@@ -240,12 +240,13 @@ drakeGame = {
     }, 1500);
     setTimeout(function() {
       x.style.display = "none";
-    }, 2500);
-    setTimeout(this.restartGame(), 2600);
+      drakeGame.restartGame();
+    }, 2000);
   },
 
   updateGame: function() {
     document.querySelector("#remainingGuess").textContent = this.guessesLeft;
+    document.querySelector("#wins").classList.add("animation", "fadeIn");
     document.querySelector("#wins").textContent = this.wins;
     document.querySelector("#losses").textContent = this.losses;
     document.querySelector("#lettersGuessed").textContent = this.guessedLettersArr.join(", ");
@@ -274,9 +275,9 @@ drakeGame = {
 
     if (this.wins > this.losses) {
       gameEnd.textContent = "You won!";
-    } else if (this.wins == this.losses)
+    } else if (this.wins == this.losses) {
       gameEnd.textContent = "Dang, you tied!";
-    else {
+    } else {
       gameEnd.textContent = "You Lost :/";
     }
   },
